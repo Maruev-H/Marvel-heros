@@ -1,6 +1,5 @@
 .card {
-  width: 650px;
-  height: 950px;
+  width: 643px;
   background: rgba(64, 70, 125, 1);
   border-radius: 12px;
   padding: 21px 29px;
@@ -8,11 +7,9 @@
 }
 
 .image {
-  height: 388px;
-  width: 592.7999877929688px;
+  width: 100%;
   border-radius: 12px;
   overflow: hidden;
-  background-color: rgb(211, 211, 211);
 }
 
 .image img{
@@ -85,4 +82,41 @@
   font-size: 24px;
   font-weight: 700;
   line-height: 29px;
+}
+
+@media (max-width: 1025px){
+  .card {
+    width: 430px;
+  }
+
+  .characteristic_name {
+    margin: 0;
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 34px;
+  }
+  
+  .characteristic_value {
+    font-size: 21px;
+    font-weight: 500;
+    line-height: 24px;
+  }
+
+  .description_title {
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 35px;
+  }
+  
+  .description {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 25px;
+  }
+}
+
+@media (max-width: 376px){
+  .description {
+    font-size: 17px;
+  }
 }

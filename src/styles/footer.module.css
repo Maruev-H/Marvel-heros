@@ -7,10 +7,25 @@
 }
 
 .foot {
-  font-family: Inter;
-  font-size: 128px;
+  font-size: 96px;
   font-weight: 700;
-  line-height: 155px;
+  line-height: 116px;
   margin: 0;
-  color:  rgba(64, 70, 125, 1);
+  color: rgba(64, 70, 125, 1);
+}
+
+@media (max-width: 1025px){
+    .foot {
+        font-size: 76px;
+        font-weight: 600;
+        line-height: 96px;
+    }
+
+}
+
+
+@media (max-width: 376px) {
+    .foot {
+        font-size: 53px;
+    }
 }
