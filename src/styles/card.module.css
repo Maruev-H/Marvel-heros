@@ -1,0 +1,88 @@
+.card {
+  width: 650px;
+  height: 950px;
+  background: rgba(64, 70, 125, 1);
+  border-radius: 12px;
+  padding: 21px 29px;
+  color: white;
+}
+
+.image {
+  height: 388px;
+  width: 592.7999877929688px;
+  border-radius: 12px;
+  overflow: hidden;
+  background-color: rgb(211, 211, 211);
+}
+
+.image img{
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.characteristics {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin: 25px 0 15px;
+  padding: 15px 0;
+  border-top: 2px solid rgba(246, 246, 246, 1);
+  border-bottom: 2px solid rgba(246, 246, 246, 1);
+}
+
+.characteristic_section {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.characteristic_name {
+  margin: 0;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 39px;
+}
+
+.characteristic_value {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 29px;
+}
+
+.card_footer {
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+}
+
+.description_title {
+  width: 100%;
+  text-align: center;
+  margin: 0 0 15px 0;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 39px;
+}
+
+.description {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 29px;
+  display: inline-block;
+  flex-grow: 1;
+}
+
+.choose_btn {
+  display: block;
+  margin: 0 auto;
+  border-radius: 12px;
+  height: 62px;
+  width: 200px;
+  background: none;
+  border: 1px solid white;
+  color: white;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 29px;
+}
